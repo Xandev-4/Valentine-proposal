@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Be My Valentine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cat-avatar">
+        <div class="cat-face">
+          <div class="cat-bow"></div>
+          <div class="cat-eyes">
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+          </div>
+          <div class="cat-nose"></div>
+          <div class="blush-left"></div>
+          <div class="blush-right"></div>
+        </div>
+      </div>
+
+      <h1 class="question">Will you be my Valentine?</h1>
+
+      <div class="button-container">
+        <button id="yes" onclick="sayYes()">Yes</button>
+        <button id="no" onmouseover="moveNo()">No</button>
+      </div>
+
+      <p class="hint" id="hint"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
